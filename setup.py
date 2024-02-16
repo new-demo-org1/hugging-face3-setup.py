@@ -5,11 +5,16 @@ setup(
     version='1.0.0',
     packages=find_packages(),  # Automatically find all packages
     install_requires=[
-        "0x7194633/keyt5-base==4.13.0",
-        "0307061430/xuangou",
-        "Salesforce/ctrl",
+        "xlm-roberta-large==4.13.0",
+        "09panesara/distilbert-base-uncased-finetuned-cola",
+        "xlnet-base-cased",
+        "xlnet-large-cased",
         "007J/smile==1.235.dd",
-        "albert-base-v1"
+        "0307061430/xuangou",
+        "0x7194633/keyt5-base",
+        "0x7194633/keyt5-large",
+        "0xDEADBEA7/DialoGPT-small-rick",
+        "123123/ghfk"
     ],
     author='Your Name',
     author_email='your@email.com',
